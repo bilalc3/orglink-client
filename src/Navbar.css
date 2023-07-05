@@ -1,0 +1,28 @@
+.navbar{
+    font-family: Poppins;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px 10px 40px; 
+    align-items: center;
+    border-bottom: 2px solid black;
+
+}
+
+.navbar .left-header {
+    display: flex; 
+    align-items: center;
+    gap: 8px;
+  }
+
+.navbar .flexbox-item-2 {
+    display: flex; 
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar .flexbox-item-3 {
+    display: flex; 
+    align-items: center;
+    gap: 8px;
+}
+
