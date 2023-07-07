@@ -1,16 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Navbar.js';
 import Footer from './Footer';
+import logo from './donate.webp';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <header className="App-header">
-        OrgLink - Starter
-      </header>
+      <div className = "container">
+        <div className = "left-container"> 
+          <img className="logo" src={logo} alt="" />
+        </div>
+        <div className = "right-container"> 
+            OrgLink
+            <button className = "button">
+              Start Talking Today!
+            </button>
+        </div>
+      </div>
       <Footer />
     </div>
   );

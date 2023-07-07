@@ -3,17 +3,15 @@ import './Navbar.css';
 
 function Navbar() {
     return(
-        <nav class="navbar">
+        <nav className="navbar">
             <a href="/">
-                <div class="left-header">
-                    <h1 >Home</h1>
+                <div className="left-header">
+                    <h1 >OrgLink</h1>
                 </div>
             </a>
-            <div class = "flexbox-item flexbox-item-2" >
-                <h1>About</h1>
-            </div>
-            <div class = "flexbox-item flexbox-item-3" >'
+            <div className = "right-header" >
                 <h1>Contact</h1>
+                <h1>About</h1>
             </div>
         </nav>
     );

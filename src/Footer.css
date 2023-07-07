@@ -1,8 +1,15 @@
-.footer-container {
+.footer {
     display: flex;
     justify-content: space-between;
-    background-color: #2B2B2B;
     color: white;
     padding: 17px 40px 17px 40px; 
+    background-color:darkcyan
+
+
   }
  
+  .footer-left {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure
+
+  }
