@@ -15,6 +15,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   width: 50%;
+  margin-right: 100px;
 }
 
 .left-container {
@@ -25,8 +26,8 @@
 }
 
 .logo {
-  width: 900px;
-  height: 900px;
+  max-width: 80%;
+  max-height: 80%;
 }
 
 .button {
@@ -55,5 +56,19 @@
 .button:active {
   background-color: darkslategrey;
 }
+
+.words {
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: bold;
+  font-size: 3.1rem; 
+  color:rgb(46, 47, 49)
+
+}
+
+.homepage-message {
+  color: #333;
+  font-size: 25px;
+}
+
 
 
