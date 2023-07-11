@@ -2,30 +2,26 @@ import React from 'react';
 import './App.css';
 import Navbar from './Navbar.js';
 import Footer from './Footer';
-import logo from './donate1.png';
+import Home from './Home';
+import About from './About';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <div className = "container">
-        <div className = "left-container"> 
-          <img className="logo" src={logo} alt="" />
-        </div>
-        <div className = "right-container"> 
-          <h1 className = "words">
-            Connect. Educate. Spread.
-          </h1>
-          <h3 className = "homepage-message">
-            Saving Lives Together: Join the Organ Donation Movement and Make a Difference Today! Be a Hero, Donate Your Organs
-          </h3>
-          <button className = "button">
-            Start Talking Today!
-          </button>
-        </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+        </Switch>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </Router>
   );
 }
 

@@ -5,16 +5,22 @@
     align-items: center;
     gap: 8px;
     color:azure;
-    text-decoration: none;
     background-color: darkcyan
 }
-
+.gradient-bg {
+    background-image: linear-gradient(to right, #2c3e50, #4ca1af);
+}
+  
 .left-header {
     display: flex; 
     align-items: center;
     gap: 8px;
     color:azure;
+  }
 
+  .navbar a {
+    text-decoration: none;
+    color:azure;
 
   }
 

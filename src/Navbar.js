@@ -1,17 +1,19 @@
 import React from "react";
 import './Navbar.css';
 
-function Navbar() {
+const Navbar = () => {
     return(
-        <nav className="navbar">
+        <nav className="navbar gradient-bg">
             <a href="/">
                 <div className="left-header">
-                    <h1 >OrgLink</h1>
+                    <h1>OrgLink</h1>
                 </div>
             </a>
             <div className = "right-header" >
-                <h1>Contact</h1>
-                <h1>About</h1>
+                <h1>Login</h1>
+                <a href="/about">
+                    <h1>About</h1>
+                </a>
             </div>
         </nav>
     );

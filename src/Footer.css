@@ -2,14 +2,15 @@
     display: flex;
     justify-content: space-between;
     color: white;
-    padding: 17px 40px 17px 40px; 
-    background-color:darkcyan
-
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: azure;
 
   }
  
   .footer-left {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: azure
+    font-weight: 500;
+    color: black;
 
   }
