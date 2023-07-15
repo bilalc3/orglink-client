@@ -4,6 +4,7 @@ import Navbar from './Navbar.js';
 import Footer from './Footer';
 import Home from './Home';
 import About from './About';
+import Postform from './Postform';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/post">
+            <Postform />
           </Route>
         </Switch>
         <Footer />

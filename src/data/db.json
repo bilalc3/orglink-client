@@ -1,0 +1,34 @@
+{
+  "threads": [
+    {
+      "title": "First Thread",
+      "zone": "Story",
+      "body": "Hello",
+      "id": 1
+    },
+    {
+      "title": "fff",
+      "zone": "",
+      "body": "fff",
+      "id": 2
+    },
+    {
+      "title": "dddd",
+      "zone": "",
+      "body": "dddd",
+      "id": 3
+    },
+    {
+      "title": "First Thread test",
+      "zone": "sports",
+      "body": "Basketbzll",
+      "id": 4
+    },
+    {
+      "title": "First Thread test",
+      "zone": "updates",
+      "body": "Basketbzll",
+      "id": 5
+    }
+  ]
+}
