@@ -30,7 +30,8 @@ const Postform = () => {
 
 
     return (  
-        <div>
+        <div className = "container">
+            <div className="text">
             <h2>Create a Thread</h2>
             <form onSubmit={handlePost}> 
                 <label className="title">Title:</label>
@@ -65,6 +66,7 @@ const Postform = () => {
                 ></textarea>
                 <button>Post Thread</button>
             </form>
+            </div>
         </div>
 
     );
