@@ -1,38 +1,81 @@
 .App {
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.gradient-bg {
+  background-image: linear-gradient(to right, #2c3e50, #4ca1af);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.container{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
 
-.App-header {
-  background-color: #282c34;
+}
+.right-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
+  margin-right: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.left-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  max-width: 80%;
+  max-height: 80%;
 }
+
+.button {
+  display: flex;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: azure;
+  color: #4ca1af;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+}
+
+.button:hover {
+  background-color: darkslategray;
+  transition: 0.3s ease all;
+  transform: translateY(-5px);
+
+}
+
+.button:active {
+  background-color: darkslategrey;
+}
+
+.words {
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: bold;
+  font-size: 3.1rem; 
+  color:azure
+
+}
+
+.homepage-message {
+  color: #94d6e0;
+  font-size: 25px;
+}
+
+
+

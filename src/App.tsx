@@ -1,14 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar.js';
+import Footer from './Footer';
+import Home from './Home';
+import About from './About';
+import Postform from './Postform';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        OrgLink - Starter
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/post">
+            <Postform />
+          </Route>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
